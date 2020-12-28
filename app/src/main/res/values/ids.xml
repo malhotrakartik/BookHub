@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtFavBookTitle" type="id" />
+    <item name="txtFavBookAuthor" type="id" />
+    <item name="txtFavBookPrice" type="id" />
+    <item name="txtFavBookRating" type="id" />
+    <item name="llFavContent" type="id" />
+    <item name="imgFavBookImage" type="id" />
+</resources>

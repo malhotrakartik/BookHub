@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+
+    android:background="#ffffff"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    >
+
+
+<RelativeLayout
+
+    android:id="@+id/rlContent"
+    android:layout_height="140dp"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imgBookImage"
+        android:scaleType="centerCrop"
+
+
+        android:layout_width="130dp"
+        android:layout_margin="10dp"
+        android:layout_height="130dp"/>
+
+
+
+    <TextView
+        android:id="@+id/txtBookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgBookImage"
+        android:layout_margin="5dp"
+        android:text="Hello Lady"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/txtBookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgBookImage"
+        android:layout_below="@+id/txtBookName"
+        android:layout_margin="5dp"
+        android:text="Ruskin Bond"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtBookCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgBookImage"
+        android:layout_below="@+id/txtBookAuthor"
+        android:layout_margin="5dp"
+        android:text="$12"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/txtBookRating"
+        android:layout_below="@+id/txtBookCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:text="5star"
+
+        android:textSize="10sp"
+        android:textStyle="bold"
+
+        android:textColor="#000000"/>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
